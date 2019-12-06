@@ -23,9 +23,15 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Why would you use class component over function components (removing hooks from the question)?
+Developers don't have to write as much code and as Apps get bigger, it gets harder to understand with function components vs if you use hooks, hooks allows you to combine things. For example when using event listeners, you add listeners in componentDidMount and remove them in componentWillUnmount which is why hooks are preferred.
 - [ ] Name three lifecycle methods and their purposes.
+    -Constructor, used for function binding
+    -Render, used to return your the JSX component
+    -componentDidMount, used to load data
 - [ ] What is the purpose of a custom hook?
+    -The purpose of a custom hook is to be able to reuse stateful logic.
 - [ ] Why is it important to test our apps?
+    -This allows us to see if the app will work from a users perspective.
 
 ## Project Set Up
 
